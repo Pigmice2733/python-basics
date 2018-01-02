@@ -18,6 +18,15 @@ def test_rectangular_prism_area():
     assert mycode.rectangular_prism_area(0.25, 4, 8) == 8
 
 
+def test_sum():
+    '''Define a variadic function that sums all given numbers.'''
+    assert mycode.sum(1) == 1
+    assert mycode.sum(2, 3) == 5
+    assert mycode.sum(-2, 2, 4) == 4
+    assert mycode.sum(-5, -2, -3) == -10
+    assert mycode.sum(1, 1, 1, 1, 1, 1, 1, 1, 1, 1,) == 10
+
+
 def test_sentence_sepearate():
     '''Define a function sentence_seperate() that seperates a string into
        an array of words. Leaving punctuation as part of a word is OK.'''
