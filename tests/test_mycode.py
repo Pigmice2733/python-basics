@@ -31,7 +31,7 @@ def test_cuboid_volume():
 
 
 def test_sum():
-    """Define a variadic function that sums all given numbers."""
+    """Define a variadic function sum that sums all given numbers."""
     assert mycode.sum(1) == 1
     assert mycode.sum(2, 3) == 5
     assert mycode.sum(-2, 2, 4) == 4
@@ -40,7 +40,7 @@ def test_sum():
 
 
 def test_sentence_sepearate():
-    """Define a function sentence_seperate() that seperates a string into
+    """Define a function sentence_seperate(str) that seperates a string into
        an array of words. Leaving punctuation as part of a word is OK.
     """
     assert mycode.sentence_seperate("This") == ["This"]
@@ -50,7 +50,7 @@ def test_sentence_sepearate():
 
 
 def test_fibb():
-    """Define a function fibb() that calculates the nth (zero-indexed)
+    """Define a function fibb(n) that calculates the nth (zero-indexed)
        fibbonaci number (eg. 1, 1, 2, 3, 5, 8, 13, ...).
     See https://wikipedia.org/wiki/Fibonacci_number for more.
     """
@@ -85,7 +85,7 @@ def test_fibb_gen():
 
 
 def test_letter_count():
-    """Define a function letter_count() that counts the amount of letters in
+    """Define a function letter_count(str) that counts the amount of letters in
        a given string and returns a map of those letters to their count.
        Uppercase and Lowercase letters should be counted under the lowercase
        letter.
