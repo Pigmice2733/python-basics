@@ -31,7 +31,7 @@ def test_cuboid_volume():
 
 
 def test_sum():
-    '''Define a variadic function that sums all given numbers.'''
+    """Define a variadic function that sums all given numbers."""
     assert mycode.sum(1) == 1
     assert mycode.sum(2, 3) == 5
     assert mycode.sum(-2, 2, 4) == 4
