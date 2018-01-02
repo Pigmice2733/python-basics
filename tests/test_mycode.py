@@ -39,7 +39,7 @@ def test_sum():
     assert mycode.sum(1, 1, 1, 1, 1, 1, 1, 1, 1, 1) == 10
 
 
-def test_sentence_sepearate():
+def test_sentence_seperate():
     """Define a function sentence_seperate(str) that seperates a string into
        an array of words. Leaving punctuation as part of a word is OK.
     """
